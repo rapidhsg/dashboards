@@ -1,0 +1,90 @@
+{
+  "quarter": {
+    "label": "Q4 2026",
+    "startDate": "2026-10-01",
+    "endDate": "2026-12-31",
+    "refreshDate": "2026-11-19"
+  },
+  "freshness": {
+    "acculynxRun": "2026-11-19T13:04:19.4533333Z",
+    "scheduleET": [
+      "06:00",
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "lagMinutes": 20,
+    "builtAt": "2026-11-19T14:22:00.373691+00:00"
+  },
+  "metrics": [
+    {
+      "key": "sales",
+      "label": "Sales",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "SELL",
+      "actual": 2037486,
+      "goal": 3769500
+    },
+    {
+      "key": "in_progress",
+      "label": "Revenue In Progress",
+      "type": "currency",
+      "tier": "headline",
+      "isCoverage": true,
+      "greenThreshold": 98,
+      "actual": 809600,
+      "goal": 263865
+    },
+    {
+      "key": "revenue",
+      "label": "Revenue Installed",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "INSTALL",
+      "actual": 2079663,
+      "goal": 3430245
+    },
+    {
+      "key": "upsells",
+      "label": "Upgrades",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "ADD",
+      "greenThreshold": 98,
+      "actual": 179416,
+      "goal": 274420
+    },
+    {
+      "key": "leads",
+      "label": "Leads",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "GET",
+      "greenThreshold": 98,
+      "actual": 614,
+      "goal": 1596
+    },
+    {
+      "key": "sits",
+      "label": "Sits",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "BOOK",
+      "greenThreshold": 98,
+      "actual": 363,
+      "goal": 718
+    },
+    {
+      "key": "jobs",
+      "label": "Total Jobs Installed",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "INSTALL",
+      "greenThreshold": 98,
+      "actual": 103,
+      "goal": 196
+    }
+  ]
+}

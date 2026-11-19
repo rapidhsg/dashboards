@@ -1,0 +1,123 @@
+{
+  "asOfDate": null,
+  "_asOfDate_note": "Pins the dashboards to this date's quarter/window. null = auto-roll with the calendar.",
+  "rollingWindowDays": 90,
+  "_rr2Goals_note": "rr2 scoreboard green-highlight thresholds (change in one spot). A rep's Rev/Sit or Close Rate turns green when it is >= the threshold (checked independently).",
+  "rr2Goals": {
+    "revPerSit": 5700,
+    "closeRate": 35
+  },
+  "_rr2TargetSlots_note": "Total rep slots on the scoreboard. Reps fill top-down; any remaining slots show as 'WE'RE HIRING / OPEN SEAT'. openSeats = max(0, rr2TargetSlots - reps). 7 slots with 5 reps = 2 open seats.",
+  "rr2TargetSlots": 7,
+  "rr1Metrics": [
+    {
+      "key": "sales",
+      "label": "Sales",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "SELL"
+    },
+    {
+      "key": "in_progress",
+      "label": "Revenue In Progress",
+      "type": "currency",
+      "tier": "headline",
+      "isCoverage": true,
+      "greenThreshold": 98
+    },
+    {
+      "key": "revenue",
+      "label": "Revenue Installed",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "INSTALL"
+    },
+    {
+      "key": "upsells",
+      "label": "Upgrades",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "ADD",
+      "greenThreshold": 98
+    },
+    {
+      "key": "leads",
+      "label": "Leads",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "GET",
+      "greenThreshold": 98
+    },
+    {
+      "key": "sits",
+      "label": "Sits",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "BOOK",
+      "greenThreshold": 98
+    },
+    {
+      "key": "jobs",
+      "label": "Total Jobs Installed",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "INSTALL",
+      "greenThreshold": 98
+    }
+  ],
+  "_reps_note": "Display names only. WHO is on the sales team comes from rr-metrics settings.json (sales_team). Add a rep there; add a row here only to set a nicer display name/role.",
+  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded \u2014 left the company 2026-07-07.",
+  "setterExclude": [
+    "Other",
+    "N/A",
+    "Bryan",
+    "Janet"
+  ],
+  "rhsg": "LONG ISLAND, NY",
+  "alertRecipients": [
+    "joseph@rapidrestore.com",
+    "segun@mycoresystem.com"
+  ],
+  "_source_note": "All data and metric rules come from rapidhsg/rr-metrics-data (data branch = AccuLynx sends, main branch = locked rules). This file only holds display settings. Never add an AccuLynx report or a metric definition here.",
+  "repDisplay": [
+    {
+      "fullName": "Francesco Ambrosio",
+      "short": "FRANCESCO",
+      "role": "OUTSIDE SALES LEAD"
+    },
+    {
+      "fullName": "Michael Dietrich",
+      "short": "MIKE DIETRICH",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Joseph Young",
+      "short": "JOE YOUNG",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Querlim Franco",
+      "short": "FRANCO QUERLIM",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Leo Santana",
+      "short": "LEO SANTANA",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Daniel Leverich",
+      "short": "DANIEL LEVERICH",
+      "role": "OUTSIDE SALES"
+    }
+  ],
+  "_freshness_note": "Freshness chip on RR1/RR2: AccuLynx sends the job export at these Eastern times; the boards update about refreshLagMinutes later (pull + build). Change here if the AccuLynx schedule changes.",
+  "acculynxScheduleET": [
+    "06:00",
+    "09:00",
+    "12:00",
+    "15:00",
+    "18:00"
+  ],
+  "refreshLagMinutes": 20
+}

@@ -1,0 +1,39 @@
+{
+  "_comment": "Quarterly goals \u2014 the ONLY thing updated by hand each quarter. Keys are the rr1 metric keys and MUST match the engine's quarter label exactly (e.g. 'Q4 2026', 'Q1 2027'). 'in_progress' is the weekly install target (Revenue Installed goal / 13 weeks). Update these 7 numbers at the start of each quarter. NOTE: 'Q1 2027' holds PLACEHOLDER numbers (copied from Q4 2026) so the board never freezes at the year rollover \u2014 replace all 7 with the real 2027 Q1 goals when they're set.",
+  "Q1 2027": {
+    "sales": 3018750,
+    "in_progress": 222923,
+    "revenue": 2898000,
+    "upsells": 202860,
+    "leads": 1278,
+    "sits": 575,
+    "jobs": 166
+  },
+  "Q2 2026": {
+    "sales": 2055000,
+    "in_progress": 151754,
+    "revenue": 1972800,
+    "upsells": 143850,
+    "leads": 768,
+    "sits": 326,
+    "jobs": 114
+  },
+  "Q3 2026": {
+    "sales": 2547000,
+    "in_progress": 188769,
+    "revenue": 2454000,
+    "upsells": 171780,
+    "leads": 827,
+    "sits": 364,
+    "jobs": 128
+  },
+  "Q4 2026": {
+    "sales": 3769500,
+    "in_progress": 263865,
+    "revenue": 3430245,
+    "upsells": 274420,
+    "leads": 1596,
+    "sits": 718,
+    "jobs": 196
+  }
+}
