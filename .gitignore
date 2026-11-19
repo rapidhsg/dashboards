@@ -1,4 +1,3 @@
-# Place this at the ROOT of the dashboard-engine repo.
 # The API key lives ONLY in GitHub Actions Secrets — never commit it.
 
 # Secrets / env
@@ -20,5 +19,11 @@ Thumbs.db
 /tmp/
 *.csv
 
-# NOTE: do NOT ignore rr1-data.json / rr2-data.json — those are the published
-# outputs that GitHub Pages serves and the Action commits.
+# Python
+__pycache__/
+
+# rr-metrics checkouts made by the refresh job
+/.rrm/
+/.rrd/
+
+# NOTE: do NOT ignore */data.json: those are the published numbers GitHub Pages serves and the refresh job commits.
