@@ -123,9 +123,21 @@ def quarter_for(d):
     return {"label": f"Q{q} {d.year}", "startDate": start.isoformat(), "endDate": end.isoformat()}
 
 
+def schedule_et(day=None):
+    """AccuLynx send times (shared/config.json acculynxScheduleUTC) as Eastern "HH:MM" for the given day.
+
+    AccuLynx sends at fixed UTC times, so in Eastern they move an hour with daylight saving."""
+    day = day or datetime.now(ET).date()
+    out = []
+    for hm in CONFIG.get("acculynxScheduleUTC", []):
+        h, m = (int(x) for x in hm.split(":"))
+        out.append(datetime(day.year, day.month, day.day, h, m, tzinfo=ZoneInfo("UTC")).astimezone(ET).strftime("%H:%M"))
+    return sorted(out)
+
+
 def freshness(run_iso):
     """The freshness chip shown on the Thermometer and Sales Scoreboard."""
-    return {"acculynxRun": run_iso, "scheduleET": CONFIG.get("acculynxScheduleET", []),
+    return {"acculynxRun": run_iso, "scheduleET": schedule_et(),
             "lagMinutes": CONFIG.get("refreshLagMinutes", 20), "builtAt": datetime.now(ZoneInfo("UTC")).isoformat()}
 
 

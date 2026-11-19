@@ -6,13 +6,13 @@
     "joseph@rapidrestore.com",
     "segun@mycoresystem.com"
   ],
-  "_freshness_note": "Freshness chip on the Thermometer and Sales Scoreboard: AccuLynx sends the job export at these Eastern times; the boards update about refreshLagMinutes later (pull + build). Change here if the AccuLynx schedule changes.",
-  "acculynxScheduleET": [
-    "06:00",
-    "09:00",
-    "12:00",
-    "15:00",
-    "18:00"
+  "_freshness_note": "Freshness chip on the Thermometer and Sales Scoreboard. AccuLynx sends the job export at fixed UTC times (checked in Joe's email Nov 16-19, 2026: they land about 4 minutes after 10:00, 13:00, 16:00, 19:00 and 22:00 UTC, which is 5 AM, 8 AM, 11 AM, 2 PM and 5 PM Eastern in winter and an hour later in summer). The builder converts these to Eastern for each day, so daylight saving is handled. The boards update about refreshLagMinutes after a send. Change here only if the AccuLynx schedule changes.",
+  "acculynxScheduleUTC": [
+    "10:00",
+    "13:00",
+    "16:00",
+    "19:00",
+    "22:00"
   ],
   "refreshLagMinutes": 20
 }
