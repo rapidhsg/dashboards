@@ -14,7 +14,10 @@ actual gross profit, the estimate for jobs not closed yet, the bonus lines, the 
 - Every count comes from `rules/rr_metrics.py` in `rapidhsg/rr-metrics-data`. No counting logic lives here.
 
 ## Files
-- `index.html` the board (Rapid Roofing Design System V2). Reads `data/gp.json`.
-- `build_gp.py` builds `data/gp.json` from rr-metrics-data and `gp_plan.json`.
+- `index.html` the board (Rapid Roofing Design System V2). Reads `data.json`.
+- `build.py` builds `data.json` from rr-metrics-data and `gp_plan.json`.
 - `gp_plan.json` quarterly goals, base salary, bonus tiers, gates, closed P&L months. Joe sets goals at quarterly planning.
-- `.github/workflows/refresh.yml` rebuilds every 15 minutes.
+- The repo's refresh job (`.github/workflows/refresh.yml`) rebuilds it every 15 minutes with the other dashboards.
+
+## Visibility
+Public as of 2026-11-19 (Joe's call). It shows Richie's base salary and bonus tiers; Joe plans to deal with that separately.

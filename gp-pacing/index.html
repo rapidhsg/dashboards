@@ -230,10 +230,10 @@ function render(d) {
 
 let loaded = false;
 function load() {
-  fetch("data/gp.json?t=" + Date.now(), { cache: "no-store" })
+  fetch("data.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(d => { render(d); loaded = true; })
-    .catch(() => { if (!loaded) $("app").innerHTML = "<div class='card'>Couldn't load data/gp.json. Check that the refresh job ran.</div>"; });
+    .catch(() => { if (!loaded) $("app").innerHTML = "<div class='card'>Couldn't load data.json. Check that the refresh job ran.</div>"; });
 }
 load();
 setInterval(load, 5 * 60 * 1000);

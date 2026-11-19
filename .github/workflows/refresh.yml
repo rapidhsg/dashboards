@@ -79,11 +79,20 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python rep-board/build.py
 
+      - name: Build GP Pacing
+        id: gppacing
+        continue-on-error: true
+        env:
+          RRM_RULES: .rrm/rules
+          RRM_DATA: .rrd/data
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python gp-pacing/build.py
+
       - name: Publish the new numbers (only if changed)
         run: |
           git config user.name "dashboards[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rr1/data.json rr2/data.json rep-board/data.json
+          git add rr1/data.json rr2/data.json rep-board/data.json gp-pacing/data.json
           if git diff --staged --quiet; then
             echo "No data change."
           else
@@ -93,7 +102,7 @@ jobs:
           fi
 
       - name: Turn red if any dashboard failed
-        if: steps.rr1.outcome == 'failure' || steps.rr2.outcome == 'failure' || steps.repboard.outcome == 'failure'
+        if: steps.rr1.outcome == 'failure' || steps.rr2.outcome == 'failure' || steps.repboard.outcome == 'failure' || steps.gppacing.outcome == 'failure'
         run: |
-          echo "RR1: ${{ steps.rr1.outcome }} | RR2: ${{ steps.rr2.outcome }} | Rep Board: ${{ steps.repboard.outcome }}"
+          echo "RR1: ${{ steps.rr1.outcome }} | RR2: ${{ steps.rr2.outcome }} | Rep Board: ${{ steps.repboard.outcome }} | GP Pacing: ${{ steps.gppacing.outcome }}"
           exit 1

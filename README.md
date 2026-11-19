@@ -8,6 +8,7 @@ see and the numbers builder behind it.
 | `rr1/` | RR1, the quarterly thermometer (quarter to date vs goals) | https://rapidhsg.github.io/dashboards/rr1/ |
 | `rr2/` | RR2, the sales scoreboard (rolling 90 days, reps and setters) | https://rapidhsg.github.io/dashboards/rr2/ |
 | `rep-board/` | Rep Board (reps across, metrics down) | https://rapidhsg.github.io/dashboards/rep-board/ |
+| `gp-pacing/` | Gross Profit Pacing (quarter GP vs the GM comp plan) | https://rapidhsg.github.io/dashboards/gp-pacing/ |
 
 ## How it works
 
@@ -15,7 +16,7 @@ see and the numbers builder behind it.
 rapidhsg/rr-metrics-data  (private: AccuLynx data + the locked metric rules)
           │  every 15 min
           ▼
-.github/workflows/refresh.yml  runs  rr1/build.py, rr2/build.py, rep-board/build.py
+.github/workflows/refresh.yml  runs  each folder's build.py
           │  each writes its folder's data.json (totals only, no customer details)
           ▼
 GitHub Pages serves each folder's index.html, which reads its data.json
@@ -35,14 +36,15 @@ Each dashboard folder has:
 - `index.html`: the page (layout, colors, logo). No math.
 - `build.py`: the numbers builder. Picks which metrics, which dates and which goals; writes `data.json`.
 - `data.json`: the published numbers. Written by the refresh job; never edit by hand.
-- `config.json` / `goals.json` (if any): that dashboard's display settings.
+- `config.json` / `goals.json` / `gp_plan.json` (if any): that dashboard's own settings and goals.
 
 `shared/` holds what every builder uses: `dashlib.py` (finds the rules and data, checks the data is fresh
 and complete, sends alerts) and `config.json` (alert recipients, AccuLynx schedule, `asOfDate`).
 
 ## Every quarter
 
-Update `rr1/goals.json` with the new quarter's 7 goals. The label must match exactly, e.g. `"Q1 2027"`.
+- `rr1/goals.json`: the new quarter's 7 goals. The label must match exactly, e.g. `"Q1 2027"`.
+- `gp-pacing/gp_plan.json`: the quarter's revenue goal and GP % goal (e.g. `"2027-Q1"`), and each month's closed P&L when it closes.
 
 ## Add a dashboard
 
@@ -64,6 +66,6 @@ Without `RRM_RULES` / `RRM_DATA` set, the builder clones rr-metrics-data itself.
 
 ## History
 
-This repo brings together `rapidhsg/dashboard-engine`, `rapidhsg/rr1`, `rapidhsg/rr2` and
-`rapidhsg/rr-rep-board` (2026-11-19), with their full commit history. Use `git log --follow <file>` to see
+This repo brings together `rapidhsg/dashboard-engine`, `rapidhsg/rr1`, `rapidhsg/rr2`, `rapidhsg/rr-rep-board`
+and `rapidhsg/rr-gp-pacing` (2026-11-19), with their full commit history. Use `git log --follow <file>` to see
 a file's history from before the move.

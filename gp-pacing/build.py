@@ -1,11 +1,13 @@
-"""Build data/gp.json for the Gross Profit Pacing board (index.html) from rapidhsg/rr-metrics-data.
+"""GP Pacing: builds gp-pacing/data.json for the Gross Profit Pacing board (index.html) from rapidhsg/rr-metrics-data.
 
 Every count comes from rules/rr_metrics.py. Goals, tiers and gates come from gp_plan.json.
 Gross profit = jobs installed this quarter. Actual = installed jobs already Closed in AccuLynx (or a
 closed P&L month from gp_plan.json). Estimate = installed jobs not Closed yet, at the margin the closed
 ones are running. The board always shows the two separately. The bonus itself is paid on the company P&L.
 
-    python build_comp.py          # env: GH_TOKEN, RR_METRICS_DIR, RR_DATA_DIR, REPORT_DATE (all optional)
+On any failure nothing is written (the board keeps the last good numbers) and an alert is emailed.
+
+    python gp-pacing/build.py     # env: REPORT_DATE (optional); local runs clone rr-metrics-data (GH_TOKEN once private)
 """
 import json
 import math
@@ -14,46 +16,19 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-import subprocess
-import tempfile
-from zoneinfo import ZoneInfo
-
-ET = ZoneInfo("America/New_York")
-REPO = "rapidhsg/rr-metrics-data"
-
-
-def clone(branch, dest):
-    tok = os.environ.get("GH_TOKEN")
-    url = f"https://x-access-token:{tok}@github.com/{REPO}.git" if tok else f"https://github.com/{REPO}.git"
-    subprocess.run(["git", "clone", "--quiet", "--depth", "1", "--branch", branch, url, str(dest)], check=True)
-
-
-def get_sources():
-    main = os.environ.get("RR_METRICS_DIR")
-    data = os.environ.get("RR_DATA_DIR")
-    tmp = Path(tempfile.mkdtemp(prefix="rr-metrics-"))
-    if not main:
-        main = tmp / "main"
-        clone("main", main)
-    if not data:
-        data = tmp / "data"
-        clone("data", data)
-    return Path(main), Path(data)
-
 HERE = Path(__file__).resolve().parent
-OUT = HERE / "data" / "gp.json"
+sys.path.insert(0, str(HERE.parent / "shared"))
+import dashlib  # noqa: E402
+
+NAME = "GP Pacing"
+ET = dashlib.ET
 PLAN = json.loads((HERE / "gp_plan.json").read_text())
 
 
 def main():
     import pandas as pd
 
-    main_dir, data_dir = get_sources()
-    sys.path.insert(0, str(main_dir / "rules"))
-    import rr_metrics as rr
-
-    status = json.loads((data_dir / "data" / "status.json").read_text())
-    pulled = datetime.fromisoformat(status["job_export_raw"]["runDate"].replace("Z", "+00:00")).astimezone(ET)
+    rr, df, data_dir, run_iso, pulled = dashlib.load(NAME)
     today = pd.Timestamp(os.environ.get("REPORT_DATE") or datetime.now(ET).date()).normalize()
 
     q = (today.month - 1) // 3
@@ -62,10 +37,9 @@ def main():
     key = f"{today.year}-Q{q + 1}"
     goals = PLAN["quarters"].get(key)
     if not goals:
-        sys.exit(f"No goals for {key} in gp_plan.json. Joe sets them at quarterly planning.")
+        dashlib.fail(NAME, "failed: goals not set", [f"No goals for {key} in gp-pacing/gp_plan.json. Joe sets them at quarterly planning."])
 
-    df = rr.load(str(data_dir / "data" / "job_export_raw_latest.csv"))
-    rip = str(data_dir / "data" / "Revenue_In_Progress_latest.csv")
+    rip = str(data_dir / "Revenue_In_Progress_latest.csv")
 
     days_total = (q_end - q_start).days + 1
     days_done = (today - q_start).days + 1
@@ -163,8 +137,8 @@ def main():
         },
         "base_quarter": round(PLAN["base_salary_annual"] / 4),
     }
-    OUT.write_text(json.dumps(out, indent=2) + "\n")
-    print(f"Wrote {OUT} ({out['quarter']} day {days_done}/{days_total}, GP to date ${gp_to_date:,.0f})")
+    path = dashlib.write(HERE, out)
+    print(f"OK {NAME} -> {path} ({out['quarter']} day {days_done}/{days_total}, GP to date ${gp_to_date:,.0f})")
 
 
 if __name__ == "__main__":
