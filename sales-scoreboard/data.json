@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-19"
   },
   "freshness": {
-    "acculynxRun": "2026-11-19T19:04:22.1833333Z",
+    "acculynxRun": "2026-11-19T22:03:55.3266667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-19T20:21:24.932360+00:00"
+    "builtAt": "2026-11-19T22:07:12.227697+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 570,
+    "demos": 572,
     "sold": 191,
-    "soldDollars": 3196074,
-    "closeRate": 33.5,
-    "revPerSit": 5607
+    "soldDollars": 3192703,
+    "closeRate": 33.4,
+    "revPerSit": 5582
   },
   "reps": [
     {
@@ -44,21 +44,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 204,
+      "demos": 205,
       "sold": 87,
-      "soldDollars": 1331266,
-      "closeRate": 42.6,
-      "revPerSit": 6526
+      "soldDollars": 1327895,
+      "closeRate": 42.4,
+      "revPerSit": 6478
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 166,
+      "demos": 167,
       "sold": 39,
       "soldDollars": 645461,
-      "closeRate": 23.5,
-      "revPerSit": 3888
+      "closeRate": 23.4,
+      "revPerSit": 3865
     },
     {
       "name": "Querlim Franco",
@@ -103,15 +103,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 312,
+      "apptsSet": 313,
       "sold": 62,
-      "soldDollars": 1001604,
-      "conversion": 19.9
+      "soldDollars": 998233,
+      "conversion": 19.8
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-19T19:04:22.1833333Z"
+    "acculynxRun": "2026-11-19T22:03:55.3266667Z"
   }
 }
