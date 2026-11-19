@@ -124,7 +124,7 @@ def quarter_for(d):
 
 
 def freshness(run_iso):
-    """The freshness chip shown on RR1/RR2."""
+    """The freshness chip shown on the Thermometer and Sales Scoreboard."""
     return {"acculynxRun": run_iso, "scheduleET": CONFIG.get("acculynxScheduleET", []),
             "lagMinutes": CONFIG.get("refreshLagMinutes", 20), "builtAt": datetime.now(ZoneInfo("UTC")).isoformat()}
 

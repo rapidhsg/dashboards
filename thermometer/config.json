@@ -1,6 +1,6 @@
 {
-  "_read_me": "RR1 (quarterly thermometer) display settings. Quarterly goals are in goals.json.",
-  "rr1Metrics": [
+  "_read_me": "Thermometer (quarterly thermometer) display settings. Quarterly goals are in goals.json.",
+  "metrics": [
     {
       "key": "sales",
       "label": "Sales",

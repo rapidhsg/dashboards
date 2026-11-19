@@ -5,8 +5,8 @@ see and the numbers builder behind it.
 
 | Folder | Dashboard | Live at |
 |---|---|---|
-| `rr1/` | RR1, the quarterly thermometer (quarter to date vs goals) | https://rapidhsg.github.io/dashboards/rr1/ |
-| `rr2/` | RR2, the sales scoreboard (rolling 90 days, reps and setters) | https://rapidhsg.github.io/dashboards/rr2/ |
+| `thermometer/` | Quarterly Thermometer (quarter to date vs goals; was RR1) | https://rapidhsg.github.io/dashboards/thermometer/ |
+| `sales-scoreboard/` | Sales Scoreboard (rolling 90 days, reps and setters; was RR2) | https://rapidhsg.github.io/dashboards/sales-scoreboard/ |
 | `rep-board/` | Rep Board (reps across, metrics down) | https://rapidhsg.github.io/dashboards/rep-board/ |
 | `gp-pacing/` | Gross Profit Pacing (quarter GP vs the GM comp plan) | https://rapidhsg.github.io/dashboards/gp-pacing/ |
 
@@ -43,19 +43,19 @@ and complete, sends alerts) and `config.json` (alert recipients, AccuLynx schedu
 
 ## Every quarter
 
-- `rr1/goals.json`: the new quarter's 7 goals. The label must match exactly, e.g. `"Q1 2027"`.
+- `thermometer/goals.json`: the new quarter's 7 goals. The label must match exactly, e.g. `"Q1 2027"`.
 - `gp-pacing/gp_plan.json`: the quarter's revenue goal and GP % goal (e.g. `"2027-Q1"`), and each month's closed P&L when it closes.
 
 ## Add a dashboard
 
-1. Make a new folder with `index.html` and `build.py` (copy `rr1/` as a starting point).
+1. Make a new folder with `index.html` and `build.py` (copy `thermometer/` as a starting point).
 2. Add a build step for it in `.github/workflows/refresh.yml` and add its `data.json` to the publish step.
 
 ## Run a builder on your own computer
 
 ```bash
 pip install pandas
-GH_TOKEN=<read-only token for rr-metrics-data> python rr1/build.py
+GH_TOKEN=<read-only token for rr-metrics-data> python thermometer/build.py
 ```
 Without `RRM_RULES` / `RRM_DATA` set, the builder clones rr-metrics-data itself.
 

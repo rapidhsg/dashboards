@@ -1,6 +1,6 @@
-"""RR2, the sales scoreboard: builds rr2/data.json.
+"""Sales Scoreboard, the sales team scoreboard: builds sales-scoreboard/data.json.
 
-Rolling window (rr2/config.json rollingWindowDays). Reps: close rate and revenue per sit with the certified
+Rolling window (sales-scoreboard/config.json rollingWindowDays). Reps: close rate and revenue per sit with the certified
 close rate rules, current sales team from rr-metrics settings.json. Setters: appointments booked in the window.
 Every count and dollar comes from the locked rr-metrics rules; this file only picks the window and arranges them.
 On any failure nothing is written (the board keeps the last good numbers) and an alert is emailed.
@@ -13,7 +13,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "shared"))
 import dashlib  # noqa: E402
 
-NAME = "RR2"
+NAME = "Sales Scoreboard"
 CONFIG = json.loads((HERE / "config.json").read_text())
 
 
@@ -61,8 +61,8 @@ def main():
 
     if t_sits <= 0:
         dashlib.fail(NAME, "BLOCKED by validation gate", ["team sits is 0"])
-    data = {"quarter": {**q, "refreshDate": run_ymd}, "freshness": dashlib.freshness(run_iso), "goals": CONFIG.get("rr2Goals"),
-            "openSeats": max(0, CONFIG.get("rr2TargetSlots", 0) - len(reps)),
+    data = {"quarter": {**q, "refreshDate": run_ymd}, "freshness": dashlib.freshness(run_iso), "goals": CONFIG.get("highlightGoals"),
+            "openSeats": max(0, CONFIG.get("targetSlots", 0) - len(reps)),
             "team": team, "reps": reps, "setters": setters,
             "source": {"data": "rapidhsg/rr-metrics-data@data", "rules": "rapidhsg/rr-metrics-data@main", "acculynxRun": run_iso}}
     out = dashlib.write(HERE, data)

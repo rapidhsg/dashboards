@@ -1,12 +1,12 @@
 {
-  "_read_me": "Settings shared by every dashboard. Each dashboard's own display settings live in its folder (rr1/config.json, rr2/config.json). Metric definitions and the sales team roster live ONLY in rapidhsg/rr-metrics-data; never add them here.",
+  "_read_me": "Settings shared by every dashboard. Each dashboard's own display settings live in its folder (thermometer/config.json, sales-scoreboard/config.json). Metric definitions and the sales team roster live ONLY in rapidhsg/rr-metrics-data; never add them here.",
   "asOfDate": null,
   "_asOfDate_note": "Pins the dashboards to this date's quarter/window. null = auto-roll with the calendar.",
   "alertRecipients": [
     "joseph@rapidrestore.com",
     "segun@mycoresystem.com"
   ],
-  "_freshness_note": "Freshness chip on RR1/RR2: AccuLynx sends the job export at these Eastern times; the boards update about refreshLagMinutes later (pull + build). Change here if the AccuLynx schedule changes.",
+  "_freshness_note": "Freshness chip on the Thermometer and Sales Scoreboard: AccuLynx sends the job export at these Eastern times; the boards update about refreshLagMinutes later (pull + build). Change here if the AccuLynx schedule changes.",
   "acculynxScheduleET": [
     "06:00",
     "09:00",

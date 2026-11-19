@@ -52,23 +52,23 @@ jobs:
 
       - run: pip install pandas
 
-      - name: Build RR1 (thermometer)
-        id: rr1
+      - name: Build Thermometer
+        id: thermometer
         continue-on-error: true
         env:
           RRM_RULES: .rrm/rules
           RRM_DATA: .rrd/data
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-        run: python rr1/build.py
+        run: python thermometer/build.py
 
-      - name: Build RR2 (scoreboard)
-        id: rr2
+      - name: Build Sales Scoreboard
+        id: salesscoreboard
         continue-on-error: true
         env:
           RRM_RULES: .rrm/rules
           RRM_DATA: .rrd/data
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-        run: python rr2/build.py
+        run: python sales-scoreboard/build.py
 
       - name: Build Rep Board
         id: repboard
@@ -92,7 +92,7 @@ jobs:
         run: |
           git config user.name "dashboards[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rr1/data.json rr2/data.json rep-board/data.json gp-pacing/data.json
+          git add thermometer/data.json sales-scoreboard/data.json rep-board/data.json gp-pacing/data.json
           if git diff --staged --quiet; then
             echo "No data change."
           else
@@ -102,7 +102,7 @@ jobs:
           fi
 
       - name: Turn red if any dashboard failed
-        if: steps.rr1.outcome == 'failure' || steps.rr2.outcome == 'failure' || steps.repboard.outcome == 'failure' || steps.gppacing.outcome == 'failure'
+        if: steps.thermometer.outcome == 'failure' || steps.salesscoreboard.outcome == 'failure' || steps.repboard.outcome == 'failure' || steps.gppacing.outcome == 'failure'
         run: |
-          echo "RR1: ${{ steps.rr1.outcome }} | RR2: ${{ steps.rr2.outcome }} | Rep Board: ${{ steps.repboard.outcome }} | GP Pacing: ${{ steps.gppacing.outcome }}"
+          echo "Thermometer: ${{ steps.thermometer.outcome }} | Sales Scoreboard: ${{ steps.salesscoreboard.outcome }} | Rep Board: ${{ steps.repboard.outcome }} | GP Pacing: ${{ steps.gppacing.outcome }}"
           exit 1
