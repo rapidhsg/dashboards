@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-19"
   },
   "freshness": {
-    "acculynxRun": "2026-11-19T16:04:13.7933333Z",
+    "acculynxRun": "2026-11-19T19:04:22.1833333Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-19T17:22:13.113499+00:00"
+    "builtAt": "2026-11-19T19:07:48.886709+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 568,
+    "demos": 570,
     "sold": 191,
-    "soldDollars": 3197194,
-    "closeRate": 33.6,
-    "revPerSit": 5629
+    "soldDollars": 3196074,
+    "closeRate": 33.5,
+    "revPerSit": 5607
   },
   "reps": [
     {
@@ -44,21 +44,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 203,
+      "demos": 204,
       "sold": 87,
       "soldDollars": 1331266,
-      "closeRate": 42.9,
-      "revPerSit": 6558
+      "closeRate": 42.6,
+      "revPerSit": 6526
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 165,
+      "demos": 166,
       "sold": 39,
       "soldDollars": 645461,
-      "closeRate": 23.6,
-      "revPerSit": 3912
+      "closeRate": 23.5,
+      "revPerSit": 3888
     },
     {
       "name": "Querlim Franco",
@@ -76,9 +76,9 @@
       "role": "OUTSIDE SALES",
       "demos": 30,
       "sold": 5,
-      "soldDollars": 68832,
+      "soldDollars": 67712,
       "closeRate": 16.7,
-      "revPerSit": 2294
+      "revPerSit": 2257
     },
     {
       "name": "Dan Leverich",
@@ -95,10 +95,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 409,
+      "apptsSet": 411,
       "sold": 104,
-      "soldDollars": 1687193,
-      "conversion": 25.4
+      "soldDollars": 1686073,
+      "conversion": 25.3
     },
     {
       "name": "JOSHUA",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-19T16:04:13.7933333Z"
+    "acculynxRun": "2026-11-19T19:04:22.1833333Z"
   }
 }

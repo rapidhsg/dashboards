@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-19T11:04:13-05:00",
+  "updated": "2026-11-19T14:04:22-05:00",
   "periods": {
     "week": "Nov 16 \u2013 Nov 22",
     "month": "November",
@@ -13,12 +13,12 @@
   "reps": [
     {
       "name": "Mike Dietrich",
-      "close_rate": 0.404,
+      "close_rate": 0.4,
       "close_counts": {
         "approved": 40,
-        "demos": 99
+        "demos": 100
       },
-      "sits": 99,
+      "sits": 100,
       "sales": {
         "week": {
           "amount": 93254,
@@ -53,7 +53,7 @@
         "approved": 19,
         "demos": 41
       },
-      "sits": 41,
+      "sits": 42,
       "sales": {
         "week": {
           "amount": 64691,
@@ -83,12 +83,12 @@
     },
     {
       "name": "Joe Young",
-      "close_rate": 0.1882,
+      "close_rate": 0.186,
       "close_counts": {
         "approved": 16,
-        "demos": 85
+        "demos": 86
       },
-      "sits": 85,
+      "sits": 86,
       "sales": {
         "week": {
           "amount": 18025,
@@ -204,11 +204,11 @@
           "count": 3
         },
         "quarter": {
-          "amount": 50605,
+          "amount": 49485,
           "count": 4
         },
         "year": {
-          "amount": 50605,
+          "amount": 49485,
           "count": 4
         }
       },
@@ -217,18 +217,18 @@
         "pct": 0
       },
       "avg_ticket": {
-        "quarter": 12651,
-        "year": 12651
+        "quarter": 12371,
+        "year": 12371
       }
     }
   ],
   "team": {
-    "close_rate": 0.3038,
+    "close_rate": 0.3021,
     "close_counts": {
       "approved": 103,
-      "demos": 339
+      "demos": 341
     },
-    "sits": 339,
+    "sits": 342,
     "sales": {
       "week": {
         "amount": 229887,
@@ -239,11 +239,11 @@
         "count": 36
       },
       "quarter": {
-        "amount": 1661931,
+        "amount": 1660811,
         "count": 99
       },
       "year": {
-        "amount": 7117414,
+        "amount": 7116294,
         "count": 397
       }
     },
@@ -252,8 +252,8 @@
       "pct": 0.3569
     },
     "avg_ticket": {
-      "quarter": 16787,
-      "year": 17928
+      "quarter": 16776,
+      "year": 17925
     }
   }
 }
