@@ -27,10 +27,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Get the rr-metrics rules (main)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: rapidhsg/rr-metrics-data
           ref: main
@@ -39,14 +39,14 @@ jobs:
           token: ${{ secrets.RR_METRICS_READ_TOKEN || github.token }}
 
       - name: Get the rr-metrics data (data)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: rapidhsg/rr-metrics-data
           ref: data
           path: .rrd
           token: ${{ secrets.RR_METRICS_READ_TOKEN || github.token }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
