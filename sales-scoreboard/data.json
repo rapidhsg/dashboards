@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-20"
   },
   "freshness": {
-    "acculynxRun": "2026-11-20T13:04:21.7733333Z",
+    "acculynxRun": "2026-11-20T16:04:31.8033333Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-20T14:21:31.891347+00:00"
+    "builtAt": "2026-11-20T16:07:04.888713+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -103,7 +103,7 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 292,
+      "apptsSet": 293,
       "sold": 57,
       "soldDollars": 946814,
       "conversion": 19.5
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-20T13:04:21.7733333Z"
+    "acculynxRun": "2026-11-20T16:04:31.8033333Z"
   }
 }
