@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-19T17:03:55-05:00",
+  "updated": "2026-11-20T05:04:32-05:00",
   "periods": {
     "week": "Nov 16 \u2013 Nov 22",
     "month": "November",
@@ -153,12 +153,12 @@
     },
     {
       "name": "Daniel Leverich",
-      "close_rate": 0.2917,
+      "close_rate": 0.28,
       "close_counts": {
         "approved": 7,
-        "demos": 24
+        "demos": 25
       },
-      "sits": 24,
+      "sits": 25,
       "sales": {
         "week": {
           "amount": 19448,
@@ -188,12 +188,12 @@
     },
     {
       "name": "Leomar Santana",
-      "close_rate": 0.1667,
+      "close_rate": 0.1613,
       "close_counts": {
         "approved": 5,
-        "demos": 30
+        "demos": 31
       },
-      "sits": 30,
+      "sits": 31,
       "sales": {
         "week": {
           "amount": 15238,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3003,
+    "close_rate": 0.2986,
     "close_counts": {
       "approved": 103,
-      "demos": 343
+      "demos": 345
     },
-    "sits": 344,
+    "sits": 346,
     "sales": {
       "week": {
         "amount": 229887,
