@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T11:04:31-05:00",
+  "updated": "2026-11-20T14:04:27-05:00",
   "quarter": "Q4 2026",
   "day": 51,
   "days": 92,
@@ -41,11 +41,11 @@
     }
   ],
   "scheduled": {
-    "value": 728512,
-    "jobs": 38
+    "value": 744012,
+    "jobs": 40
   },
-  "projected_gp": 1074030,
-  "projected_bonus": 10740,
+  "projected_gp": 1079779,
+  "projected_bonus": 16197,
   "tiers": [
     {
       "name": "94%",
@@ -68,7 +68,7 @@
       "gp_needed": 271017,
       "install_needed": 730722,
       "per_week": 124757,
-      "beyond_schedule": 2210,
+      "beyond_schedule": 0,
       "hit": false
     },
     {
@@ -80,7 +80,7 @@
       "gp_needed": 378502,
       "install_needed": 1020526,
       "per_week": 174236,
-      "beyond_schedule": 292014,
+      "beyond_schedule": 276514,
       "hit": false
     }
   ],
@@ -91,12 +91,12 @@
       "pass": true
     },
     "close_rate": {
-      "value": 0.2994,
+      "value": 0.3006,
       "min": 0.3,
-      "pass": false,
-      "sold": 103,
-      "demos": 344,
-      "sales_short": 1
+      "pass": true,
+      "sold": 104,
+      "demos": 346,
+      "sales_short": 0
     }
   },
   "base_quarter": 30000
