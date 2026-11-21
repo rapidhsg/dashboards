@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T17:04:22-05:00",
+  "updated": "2026-11-21T05:04:28-05:00",
   "quarter": "Q4 2026",
   "day": 52,
   "days": 92,
@@ -91,11 +91,11 @@
       "pass": true
     },
     "close_rate": {
-      "value": 0.298,
+      "value": 0.2989,
       "min": 0.3,
       "pass": false,
       "sold": 104,
-      "demos": 349,
+      "demos": 348,
       "sales_short": 1
     }
   },
