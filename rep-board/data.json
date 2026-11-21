@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-21T14:04:17-05:00",
+  "updated": "2026-11-21T17:03:55-05:00",
   "periods": {
     "week": "Nov 16 \u2013 Nov 22",
     "month": "November",
@@ -188,12 +188,12 @@
     },
     {
       "name": "Leomar Santana",
-      "close_rate": 0.1515,
+      "close_rate": 0.1471,
       "close_counts": {
         "approved": 5,
-        "demos": 33
+        "demos": 34
       },
-      "sits": 33,
+      "sits": 34,
       "sales": {
         "week": {
           "amount": 15238,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3048,
+    "close_rate": 0.304,
     "close_counts": {
       "approved": 107,
-      "demos": 351
+      "demos": 352
     },
-    "sits": 352,
+    "sits": 353,
     "sales": {
       "week": {
         "amount": 291257,
