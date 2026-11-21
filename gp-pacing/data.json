@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T08:04:22-05:00",
+  "updated": "2026-11-21T11:04:00-05:00",
   "quarter": "Q4 2026",
   "day": 52,
   "days": 92,
@@ -8,15 +8,15 @@
   "revenue_goal": 2905000,
   "gp_goal_pct": 0.37,
   "gp_goal": 1074850,
-  "gp_to_date": 803833,
+  "gp_to_date": 840537,
   "actual_gp": 497526,
-  "estimate_gp": 306307,
-  "installed": 2167316,
-  "installed_jobs": 139,
+  "estimate_gp": 343011,
+  "installed": 2266278,
+  "installed_jobs": 146,
   "closed_jobs": 104,
   "closed_value": 1341443,
-  "open_jobs": 35,
-  "open_value": 825873,
+  "open_jobs": 42,
+  "open_value": 924835,
   "pace_target": 607524,
   "months": [
     {
@@ -31,21 +31,21 @@
     },
     {
       "month": "November",
-      "installed": 899658,
+      "installed": 998620,
       "closed_jobs": 15,
       "actual_gp": 72906,
-      "open_jobs": 31,
-      "open_value": 719547,
-      "estimate_gp": 266872,
+      "open_jobs": 38,
+      "open_value": 818510,
+      "estimate_gp": 303576,
       "source": "AccuLynx"
     }
   ],
   "scheduled": {
-    "value": 645050,
-    "jobs": 33
+    "value": 659977,
+    "jobs": 34
   },
-  "projected_gp": 1043075,
-  "projected_bonus": 10431,
+  "projected_gp": 1085315,
+  "projected_bonus": 16280,
   "tiers": [
     {
       "name": "94%",
@@ -53,9 +53,9 @@
       "rate": 0.01,
       "gp_target": 1010359,
       "bonus": 10104,
-      "gp_needed": 206526,
-      "install_needed": 556840,
-      "per_week": 97447,
+      "gp_needed": 169822,
+      "install_needed": 457877,
+      "per_week": 80129,
       "beyond_schedule": 0,
       "hit": false
     },
@@ -65,10 +65,10 @@
       "rate": 0.015,
       "gp_target": 1074850,
       "bonus": 16123,
-      "gp_needed": 271017,
-      "install_needed": 730722,
-      "per_week": 127876,
-      "beyond_schedule": 85672,
+      "gp_needed": 234313,
+      "install_needed": 631760,
+      "per_week": 110558,
+      "beyond_schedule": 0,
       "hit": false
     },
     {
@@ -77,10 +77,10 @@
       "rate": 0.02,
       "gp_target": 1182335,
       "bonus": 23647,
-      "gp_needed": 378502,
-      "install_needed": 1020526,
-      "per_week": 178592,
-      "beyond_schedule": 375476,
+      "gp_needed": 341798,
+      "install_needed": 921563,
+      "per_week": 161274,
+      "beyond_schedule": 261587,
       "hit": false
     }
   ],
@@ -91,12 +91,12 @@
       "pass": true
     },
     "close_rate": {
-      "value": 0.2989,
+      "value": 0.3009,
       "min": 0.3,
-      "pass": false,
-      "sold": 104,
-      "demos": 348,
-      "sales_short": 1
+      "pass": true,
+      "sold": 105,
+      "demos": 349,
+      "sales_short": 0
     }
   },
   "base_quarter": 30000
