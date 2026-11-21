@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-21"
   },
   "freshness": {
-    "acculynxRun": "2026-11-21T16:04:00.68Z",
+    "acculynxRun": "2026-11-21T19:04:17.5066667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-21T17:21:33.656510+00:00"
+    "builtAt": "2026-11-21T19:07:05.908335+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 562,
-    "sold": 189,
-    "soldDollars": 3170906,
-    "closeRate": 33.6,
-    "revPerSit": 5642
+    "demos": 564,
+    "sold": 191,
+    "soldDollars": 3206349,
+    "closeRate": 33.9,
+    "revPerSit": 5685
   },
   "reps": [
     {
@@ -54,11 +54,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 165,
-      "sold": 40,
-      "soldDollars": 656461,
-      "closeRate": 24.2,
-      "revPerSit": 3979
+      "demos": 166,
+      "sold": 41,
+      "soldDollars": 662461,
+      "closeRate": 24.7,
+      "revPerSit": 3991
     },
     {
       "name": "Querlim Franco",
@@ -74,21 +74,21 @@
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 32,
+      "demos": 33,
       "sold": 5,
       "soldDollars": 67712,
-      "closeRate": 15.6,
-      "revPerSit": 2116
+      "closeRate": 15.2,
+      "revPerSit": 2052
     },
     {
       "name": "Dan Leverich",
       "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
       "demos": 25,
-      "sold": 7,
-      "soldDollars": 111435,
-      "closeRate": 28.0,
-      "revPerSit": 4457
+      "sold": 8,
+      "soldDollars": 140878,
+      "closeRate": 32.0,
+      "revPerSit": 5635
     }
   ],
   "setters": [
@@ -103,15 +103,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 293,
-      "sold": 57,
-      "soldDollars": 956841,
-      "conversion": 19.5
+      "apptsSet": 295,
+      "sold": 59,
+      "soldDollars": 992284,
+      "conversion": 20.0
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-21T16:04:00.68Z"
+    "acculynxRun": "2026-11-21T19:04:17.5066667Z"
   }
 }
