@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-11-21"
+    "refreshDate": "2026-11-22"
   },
   "freshness": {
-    "acculynxRun": "2026-11-21T22:03:55.0333333Z",
+    "acculynxRun": "2026-11-22T10:04:42.6133333Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-22T08:08:32.779962+00:00"
+    "builtAt": "2026-11-22T10:07:01.925336+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 565,
+    "demos": 564,
     "sold": 191,
     "soldDollars": 3206349,
-    "closeRate": 33.8,
-    "revPerSit": 5675
+    "closeRate": 33.9,
+    "revPerSit": 5685
   },
   "reps": [
     {
@@ -44,11 +44,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 196,
+      "demos": 195,
       "sold": 85,
       "soldDollars": 1309098,
-      "closeRate": 43.4,
-      "revPerSit": 6679
+      "closeRate": 43.6,
+      "revPerSit": 6713
     },
     {
       "name": "Joseph Young",
@@ -95,23 +95,23 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 414,
-      "sold": 105,
-      "soldDollars": 1697073,
+      "apptsSet": 405,
+      "sold": 103,
+      "soldDollars": 1687081,
       "conversion": 25.4
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 296,
+      "apptsSet": 295,
       "sold": 59,
       "soldDollars": 992284,
-      "conversion": 19.9
+      "conversion": 20.0
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-21T22:03:55.0333333Z"
+    "acculynxRun": "2026-11-22T10:04:42.6133333Z"
   }
 }
