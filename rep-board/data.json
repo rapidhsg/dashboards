@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-23T14:04:10-05:00",
+  "updated": "2026-11-23T17:04:07-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -13,37 +13,37 @@
   "reps": [
     {
       "name": "Mike Dietrich",
-      "close_rate": 0.402,
+      "close_rate": 0.4078,
       "close_counts": {
-        "approved": 41,
-        "demos": 102
+        "approved": 42,
+        "demos": 103
       },
-      "sits": 102,
+      "sits": 103,
       "sales": {
         "week": {
-          "amount": 0,
-          "count": 0
+          "amount": 15772,
+          "count": 1
         },
         "month": {
-          "amount": 177795,
-          "count": 12
+          "amount": 193566,
+          "count": 13
         },
         "quarter": {
-          "amount": 692009,
-          "count": 39
+          "amount": 707781,
+          "count": 40
         },
         "year": {
-          "amount": 3132875,
-          "count": 206
+          "amount": 3148647,
+          "count": 207
         }
       },
       "gp": {
-        "amount": 1062181,
-        "pct": 0.3621
+        "amount": 1063093,
+        "pct": 0.3624
       },
       "avg_ticket": {
-        "quarter": 17744,
-        "year": 15208
+        "quarter": 17695,
+        "year": 15211
       }
     },
     {
@@ -73,8 +73,8 @@
         }
       },
       "gp": {
-        "amount": 562935,
-        "pct": 0.3589
+        "amount": 562808,
+        "pct": 0.3588
       },
       "avg_ticket": {
         "quarter": 17316,
@@ -108,8 +108,8 @@
         }
       },
       "gp": {
-        "amount": 335667,
-        "pct": 0.3331
+        "amount": 335573,
+        "pct": 0.333
       },
       "avg_ticket": {
         "quarter": 13901,
@@ -118,12 +118,12 @@
     },
     {
       "name": "Franco Querlim",
-      "close_rate": 0.2712,
+      "close_rate": 0.2759,
       "close_counts": {
         "approved": 16,
-        "demos": 59
+        "demos": 58
       },
-      "sits": 59,
+      "sits": 58,
       "sales": {
         "week": {
           "amount": 0,
@@ -143,8 +143,8 @@
         }
       },
       "gp": {
-        "amount": 57805,
-        "pct": 0.3764
+        "amount": 58297,
+        "pct": 0.3796
       },
       "avg_ticket": {
         "quarter": 16156,
@@ -153,12 +153,12 @@
     },
     {
       "name": "Daniel Leverich",
-      "close_rate": 0.3077,
+      "close_rate": 0.2963,
       "close_counts": {
         "approved": 8,
-        "demos": 26
+        "demos": 27
       },
-      "sits": 26,
+      "sits": 27,
       "sales": {
         "week": {
           "amount": 0,
@@ -178,8 +178,8 @@
         }
       },
       "gp": {
-        "amount": 13036,
-        "pct": 0.4495
+        "amount": 13031,
+        "pct": 0.4493
       },
       "avg_ticket": {
         "quarter": 17610,
@@ -223,37 +223,37 @@
     }
   ],
   "team": {
-    "close_rate": 0.3053,
+    "close_rate": 0.3073,
     "close_counts": {
-      "approved": 109,
-      "demos": 357
+      "approved": 110,
+      "demos": 358
     },
-    "sits": 358,
+    "sits": 359,
     "sales": {
       "week": {
-        "amount": 33245,
-        "count": 2
+        "amount": 49017,
+        "count": 3
       },
       "month": {
-        "amount": 639562,
-        "count": 42
+        "amount": 655334,
+        "count": 43
       },
       "quarter": {
-        "amount": 1753241,
-        "count": 105
+        "amount": 1769013,
+        "count": 106
       },
       "year": {
-        "amount": 7211224,
-        "count": 403
+        "amount": 7226995,
+        "count": 404
       }
     },
     "gp": {
-      "amount": 2031624,
-      "pct": 0.3569
+      "amount": 2032802,
+      "pct": 0.3571
     },
     "avg_ticket": {
-      "quarter": 16698,
-      "year": 17894
+      "quarter": 16689,
+      "year": 17889
     }
   }
 }
