@@ -1,14 +1,14 @@
 {
   "sample": false,
-  "updated": "2026-11-22T17:03:57-05:00",
+  "updated": "2026-11-23T05:04:47-05:00",
   "periods": {
-    "week": "Nov 16 \u2013 Nov 22",
+    "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
     "quarter": "Q4 2026",
     "year": "2026",
     "close_rate": "Q4 2026",
     "sits": "Q4 2026",
-    "week_of_quarter": "8 / 13"
+    "week_of_quarter": "9 / 13"
   },
   "reps": [
     {
@@ -21,8 +21,8 @@
       "sits": 100,
       "sales": {
         "week": {
-          "amount": 108182,
-          "count": 7
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 177795,
@@ -56,8 +56,8 @@
       "sits": 43,
       "sales": {
         "week": {
-          "amount": 64691,
-          "count": 2
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 114029,
@@ -91,8 +91,8 @@
       "sits": 92,
       "sales": {
         "week": {
-          "amount": 35025,
-          "count": 4
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 106164,
@@ -126,8 +126,8 @@
       "sits": 59,
       "sales": {
         "week": {
-          "amount": 19231,
-          "count": 1
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 50886,
@@ -161,8 +161,8 @@
       "sits": 25,
       "sales": {
         "week": {
-          "amount": 48890,
-          "count": 3
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 111875,
@@ -196,8 +196,8 @@
       "sits": 34,
       "sales": {
         "week": {
-          "amount": 15238,
-          "count": 1
+          "amount": 0,
+          "count": 0
         },
         "month": {
           "amount": 45568,
@@ -231,8 +231,8 @@
     "sits": 353,
     "sales": {
       "week": {
-        "amount": 291257,
-        "count": 18
+        "amount": 0,
+        "count": 0
       },
       "month": {
         "amount": 606317,
