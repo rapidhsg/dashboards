@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-23"
   },
   "freshness": {
-    "acculynxRun": "2026-11-23T10:04:47.05Z",
+    "acculynxRun": "2026-11-23T13:04:52.2066667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-23T12:51:56.185654+00:00"
+    "builtAt": "2026-11-23T13:06:52.856547+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -25,9 +25,9 @@
   "team": {
     "demos": 559,
     "sold": 187,
-    "soldDollars": 3172185,
+    "soldDollars": 3172885,
     "closeRate": 33.5,
-    "revPerSit": 5675
+    "revPerSit": 5676
   },
   "reps": [
     {
@@ -46,9 +46,9 @@
       "role": "OUTSIDE SALES",
       "demos": 192,
       "sold": 82,
-      "soldDollars": 1294278,
+      "soldDollars": 1294978,
       "closeRate": 42.7,
-      "revPerSit": 6741
+      "revPerSit": 6745
     },
     {
       "name": "Joseph Young",
@@ -97,7 +97,7 @@
       "role": "APPT SETTER",
       "apptsSet": 396,
       "sold": 100,
-      "soldDollars": 1614842,
+      "soldDollars": 1615542,
       "conversion": 25.3
     },
     {
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-23T10:04:47.05Z"
+    "acculynxRun": "2026-11-23T13:04:52.2066667Z"
   }
 }

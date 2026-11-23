@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-23T05:04:47-05:00",
+  "updated": "2026-11-23T08:04:52-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -25,15 +25,15 @@
           "count": 0
         },
         "month": {
-          "amount": 177795,
+          "amount": 178495,
           "count": 12
         },
         "quarter": {
-          "amount": 692009,
+          "amount": 692709,
           "count": 39
         },
         "year": {
-          "amount": 3132875,
+          "amount": 3133575,
           "count": 206
         }
       },
@@ -42,8 +42,8 @@
         "pct": 0.3621
       },
       "avg_ticket": {
-        "quarter": 17744,
-        "year": 15208
+        "quarter": 17762,
+        "year": 15212
       }
     },
     {
@@ -235,15 +235,15 @@
         "count": 0
       },
       "month": {
-        "amount": 606317,
+        "amount": 607017,
         "count": 40
       },
       "quarter": {
-        "amount": 1719996,
+        "amount": 1720696,
         "count": 103
       },
       "year": {
-        "amount": 7175478,
+        "amount": 7176178,
         "count": 401
       }
     },
@@ -252,8 +252,8 @@
       "pct": 0.3569
     },
     "avg_ticket": {
-      "quarter": 16699,
-      "year": 17894
+      "quarter": 16706,
+      "year": 17896
     }
   }
 }
