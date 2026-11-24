@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-24"
   },
   "freshness": {
-    "acculynxRun": "2026-11-24T19:04:28.9133333Z",
+    "acculynxRun": "2026-11-24T22:04:00.8766667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-24T19:22:06.993705+00:00"
+    "builtAt": "2026-11-24T22:07:04.993125+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 562,
-    "sold": 190,
-    "soldDollars": 3229236,
-    "closeRate": 33.8,
-    "revPerSit": 5746
+    "demos": 564,
+    "sold": 191,
+    "soldDollars": 3248410,
+    "closeRate": 33.9,
+    "revPerSit": 5760
   },
   "reps": [
     {
@@ -54,11 +54,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 162,
+      "demos": 163,
       "sold": 41,
       "soldDollars": 659652,
-      "closeRate": 25.3,
-      "revPerSit": 4072
+      "closeRate": 25.2,
+      "revPerSit": 4047
     },
     {
       "name": "Querlim Franco",
@@ -84,34 +84,34 @@
       "name": "Dan Leverich",
       "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 27,
-      "sold": 8,
-      "soldDollars": 140878,
-      "closeRate": 29.6,
-      "revPerSit": 5218
+      "demos": 28,
+      "sold": 9,
+      "soldDollars": 160052,
+      "closeRate": 32.1,
+      "revPerSit": 5716
     }
   ],
   "setters": [
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 392,
+      "apptsSet": 393,
       "sold": 99,
       "soldDollars": 1589687,
-      "conversion": 25.3
+      "conversion": 25.2
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 292,
-      "sold": 59,
-      "soldDollars": 973785,
-      "conversion": 20.2
+      "sold": 60,
+      "soldDollars": 992958,
+      "conversion": 20.5
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-24T19:04:28.9133333Z"
+    "acculynxRun": "2026-11-24T22:04:00.8766667Z"
   }
 }
