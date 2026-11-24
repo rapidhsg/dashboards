@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-24"
   },
   "freshness": {
-    "acculynxRun": "2026-11-24T16:04:15.8366667Z",
+    "acculynxRun": "2026-11-24T19:04:28.9133333Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-24T18:13:16.009733+00:00"
+    "builtAt": "2026-11-24T19:07:25.636104+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 561,
+    "demos": 562,
     "sold": 190,
     "soldDollars": 3229236,
-    "closeRate": 33.9,
-    "revPerSit": 5756
+    "closeRate": 33.8,
+    "revPerSit": 5746
   },
   "reps": [
     {
@@ -54,11 +54,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 161,
+      "demos": 162,
       "sold": 41,
       "soldDollars": 659652,
-      "closeRate": 25.5,
-      "revPerSit": 4097
+      "closeRate": 25.3,
+      "revPerSit": 4072
     },
     {
       "name": "Querlim Franco",
@@ -95,7 +95,7 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 391,
+      "apptsSet": 392,
       "sold": 99,
       "soldDollars": 1589687,
       "conversion": 25.3
@@ -103,15 +103,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 291,
+      "apptsSet": 292,
       "sold": 59,
       "soldDollars": 973785,
-      "conversion": 20.3
+      "conversion": 20.2
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-24T16:04:15.8366667Z"
+    "acculynxRun": "2026-11-24T19:04:28.9133333Z"
   }
 }

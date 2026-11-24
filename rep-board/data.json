@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-24T11:04:15-05:00",
+  "updated": "2026-11-24T14:04:28-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -38,8 +38,8 @@
         }
       },
       "gp": {
-        "amount": 1063093,
-        "pct": 0.3624
+        "amount": 1072328,
+        "pct": 0.3617
       },
       "avg_ticket": {
         "quarter": 17695,
@@ -73,8 +73,8 @@
         }
       },
       "gp": {
-        "amount": 563144,
-        "pct": 0.3591
+        "amount": 588708,
+        "pct": 0.356
       },
       "avg_ticket": {
         "quarter": 17316,
@@ -83,12 +83,12 @@
     },
     {
       "name": "Joe Young",
-      "close_rate": 0.2065,
+      "close_rate": 0.2043,
       "close_counts": {
         "approved": 19,
-        "demos": 92
+        "demos": 93
       },
-      "sits": 92,
+      "sits": 93,
       "sales": {
         "week": {
           "amount": 16535,
@@ -108,8 +108,8 @@
         }
       },
       "gp": {
-        "amount": 335573,
-        "pct": 0.333
+        "amount": 344610,
+        "pct": 0.3354
       },
       "avg_ticket": {
         "quarter": 14048,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3092,
+    "close_rate": 0.3083,
     "close_counts": {
       "approved": 111,
-      "demos": 359
+      "demos": 360
     },
-    "sits": 360,
+    "sits": 361,
     "sales": {
       "week": {
         "amount": 65552,
@@ -248,8 +248,8 @@
       }
     },
     "gp": {
-      "amount": 2033139,
-      "pct": 0.3572
+      "amount": 2076975,
+      "pct": 0.3563
     },
     "avg_ticket": {
       "quarter": 16687,
