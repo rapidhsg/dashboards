@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-23T17:04:07-05:00",
+  "updated": "2026-11-24T05:04:34-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -48,12 +48,12 @@
     },
     {
       "name": "Francesco Ambrosio",
-      "close_rate": 0.4545,
+      "close_rate": 0.4651,
       "close_counts": {
         "approved": 20,
-        "demos": 44
+        "demos": 43
       },
-      "sits": 45,
+      "sits": 44,
       "sales": {
         "week": {
           "amount": 3500,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3073,
+    "close_rate": 0.3081,
     "close_counts": {
       "approved": 110,
-      "demos": 358
+      "demos": 357
     },
-    "sits": 359,
+    "sits": 358,
     "sales": {
       "week": {
         "amount": 49017,
