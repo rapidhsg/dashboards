@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-25T09:03:01-05:00",
+  "updated": "2026-11-25T11:04:22-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -13,12 +13,12 @@
   "reps": [
     {
       "name": "Mike Dietrich",
-      "close_rate": 0.4038,
+      "close_rate": 0.4,
       "close_counts": {
         "approved": 42,
-        "demos": 104
+        "demos": 105
       },
-      "sits": 104,
+      "sits": 105,
       "sales": {
         "week": {
           "amount": 15772,
@@ -83,12 +83,12 @@
     },
     {
       "name": "Joe Young",
-      "close_rate": 0.2021,
+      "close_rate": 0.2,
       "close_counts": {
         "approved": 19,
-        "demos": 94
+        "demos": 95
       },
-      "sits": 94,
+      "sits": 95,
       "sales": {
         "week": {
           "amount": 16535,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3085,
+    "close_rate": 0.3068,
     "close_counts": {
       "approved": 112,
-      "demos": 363
+      "demos": 365
     },
-    "sits": 364,
+    "sits": 366,
     "sales": {
       "week": {
         "amount": 84726,
