@@ -15,19 +15,19 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-25T16:21:56.038350+00:00"
+    "builtAt": "2026-11-25T19:07:06.447169+00:00"
   },
   "goals": {
     "revPerSit": 5700,
     "closeRate": 35
   },
-  "openSeats": 1,
+  "openSeats": 2,
   "team": {
-    "demos": 561,
-    "sold": 187,
-    "soldDollars": 3200862,
-    "closeRate": 33.3,
-    "revPerSit": 5706
+    "demos": 497,
+    "sold": 170,
+    "soldDollars": 2939124,
+    "closeRate": 34.2,
+    "revPerSit": 5914
   },
   "reps": [
     {
@@ -61,16 +61,6 @@
       "revPerSit": 3986
     },
     {
-      "name": "Querlim Franco",
-      "short": "FRANCO QUERLIM",
-      "role": "OUTSIDE SALES",
-      "demos": 64,
-      "sold": 17,
-      "soldDollars": 261738,
-      "closeRate": 26.6,
-      "revPerSit": 4090
-    },
-    {
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
@@ -82,7 +72,7 @@
     },
     {
       "name": "Dan Leverich",
-      "short": "DAN LEVERICH",
+      "short": "DANIEL LEVERICH",
       "role": "OUTSIDE SALES",
       "demos": 28,
       "sold": 9,
