@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-25"
   },
   "freshness": {
-    "acculynxRun": "2026-11-25T16:04:22.1166667Z",
+    "acculynxRun": "2026-11-25T19:04:11.6766667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-25T19:07:06.447169+00:00"
+    "builtAt": "2026-11-25T19:07:57.925347+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 497,
+    "demos": 499,
     "sold": 170,
     "soldDollars": 2939124,
-    "closeRate": 34.2,
-    "revPerSit": 5914
+    "closeRate": 34.1,
+    "revPerSit": 5890
   },
   "reps": [
     {
@@ -64,28 +64,28 @@
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 35,
+      "demos": 36,
       "sold": 6,
       "soldDollars": 97457,
-      "closeRate": 17.1,
-      "revPerSit": 2784
+      "closeRate": 16.7,
+      "revPerSit": 2707
     },
     {
       "name": "Dan Leverich",
       "short": "DANIEL LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 28,
+      "demos": 29,
       "sold": 9,
       "soldDollars": 160052,
-      "closeRate": 32.1,
-      "revPerSit": 5716
+      "closeRate": 31.0,
+      "revPerSit": 5519
     }
   ],
   "setters": [
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 386,
+      "apptsSet": 387,
       "sold": 97,
       "soldDollars": 1558187,
       "conversion": 25.1
@@ -102,6 +102,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-25T16:04:22.1166667Z"
+    "acculynxRun": "2026-11-25T19:04:11.6766667Z"
   }
 }

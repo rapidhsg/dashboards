@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-25T11:04:22-05:00",
+  "updated": "2026-11-25T14:04:11-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -38,7 +38,7 @@
         }
       },
       "gp": {
-        "amount": 1072328,
+        "amount": 1072375,
         "pct": 0.3617
       },
       "avg_ticket": {
@@ -73,8 +73,8 @@
         }
       },
       "gp": {
-        "amount": 595788,
-        "pct": 0.3539
+        "amount": 596216,
+        "pct": 0.3541
       },
       "avg_ticket": {
         "quarter": 17316,
@@ -118,12 +118,12 @@
     },
     {
       "name": "Daniel Leverich",
-      "close_rate": 0.3214,
+      "close_rate": 0.3103,
       "close_counts": {
         "approved": 9,
-        "demos": 28
+        "demos": 29
       },
-      "sits": 28,
+      "sits": 29,
       "sales": {
         "week": {
           "amount": 19174,
@@ -153,12 +153,12 @@
     },
     {
       "name": "Leomar Santana",
-      "close_rate": 0.1714,
+      "close_rate": 0.1667,
       "close_counts": {
         "approved": 6,
-        "demos": 35
+        "demos": 36
       },
-      "sits": 35,
+      "sits": 36,
       "sales": {
         "week": {
           "amount": 29745,
@@ -188,12 +188,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3127,
+    "close_rate": 0.3107,
     "close_counts": {
       "approved": 96,
-      "demos": 307
+      "demos": 309
     },
-    "sits": 308,
+    "sits": 310,
     "sales": {
       "week": {
         "amount": 84726,
@@ -213,8 +213,8 @@
       }
     },
     "gp": {
-      "amount": 2040352,
-      "pct": 0.3555
+      "amount": 2040827,
+      "pct": 0.3556
     },
     "avg_ticket": {
       "quarter": 16807,
