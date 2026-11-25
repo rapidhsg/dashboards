@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-24T17:04:00-05:00",
+  "updated": "2026-11-25T05:04:37-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -13,12 +13,12 @@
   "reps": [
     {
       "name": "Mike Dietrich",
-      "close_rate": 0.4078,
+      "close_rate": 0.4038,
       "close_counts": {
         "approved": 42,
-        "demos": 103
+        "demos": 104
       },
-      "sits": 103,
+      "sits": 104,
       "sales": {
         "week": {
           "amount": 15772,
@@ -223,12 +223,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3094,
+    "close_rate": 0.3085,
     "close_counts": {
       "approved": 112,
-      "demos": 362
+      "demos": 363
     },
-    "sits": 363,
+    "sits": 364,
     "sales": {
       "week": {
         "amount": 84726,
