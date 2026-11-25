@@ -26,7 +26,6 @@ REPS = [
     ("Mike Dietrich", "Michael Dietrich"),
     ("Francesco Ambrosio", "Francesco Ambrosio"),
     ("Joe Young", "Joseph Young"),
-    ("Franco Querlim", "Querlim Franco"),
     ("Daniel Leverich", "Dan Leverich"),
     ("Leomar Santana", "Leo Santana"),
 ]

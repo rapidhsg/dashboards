@@ -41,6 +41,13 @@ Each dashboard folder has:
 `shared/` holds what every builder uses: `dashlib.py` (finds the rules and data, checks the data is fresh
 and complete, sends alerts) and `config.json` (alert recipients, AccuLynx schedule, `asOfDate`).
 
+## Add or remove a sales rep
+
+Ask Claude in a Claude Code session that has this repo and `rapidhsg/rr-metrics-data`. The checklist lives in
+`CLAUDE.md` in rr-metrics-data. Here it touches `sales-scoreboard/config.json` (`repDisplay`) and
+`rep-board/build.py` (`REPS`). Who is on the team is set only in rr-metrics-data `rules/settings.json`.
+Removing a rep: merge this repo first. Adding a rep: merge rr-metrics-data first.
+
 ## Every quarter
 
 - `thermometer/goals.json`: the new quarter's 7 goals. The label must match exactly, e.g. `"Q1 2027"`.
