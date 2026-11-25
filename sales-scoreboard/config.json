@@ -8,7 +8,7 @@
   },
   "_targetSlots_note": "Total rep slots on the scoreboard. Reps fill top-down; any remaining slots show as 'WE'RE HIRING / OPEN SEAT'. openSeats = max(0, targetSlots - reps). 7 slots with 5 reps = 2 open seats.",
   "targetSlots": 7,
-  "_reps_note": "Display names only. WHO is on the sales team comes from rr-metrics settings.json (sales_team). Add a rep there; add a row here only to set a nicer display name/role.",
+  "_reps_note": "Display names only. WHO is on the sales team comes from rr-metrics settings.json (sales_team). Add a rep there; add a row here only to set a nicer display name/role. fullName must match the AccuLynx name exactly or the row is ignored. Adding or removing a rep: follow CLAUDE.md in rapidhsg/rr-metrics-data.",
   "repDisplay": [
     {
       "fullName": "Francesco Ambrosio",
@@ -26,22 +26,17 @@
       "role": "OUTSIDE SALES"
     },
     {
-      "fullName": "Querlim Franco",
-      "short": "FRANCO QUERLIM",
-      "role": "OUTSIDE SALES"
-    },
-    {
       "fullName": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES"
     },
     {
-      "fullName": "Daniel Leverich",
+      "fullName": "Dan Leverich",
       "short": "DANIEL LEVERICH",
       "role": "OUTSIDE SALES"
     }
   ],
-  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded \u2014 left the company 2026-07-07.",
+  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded — left the company 2026-07-07.",
   "setterExclude": [
     "Other",
     "N/A",
