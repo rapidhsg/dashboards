@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-11-26"
+    "refreshDate": "2026-11-27"
   },
   "freshness": {
-    "acculynxRun": "2026-11-26T22:04:11.76Z",
+    "acculynxRun": "2026-11-27T10:04:37.18Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-27T04:07:11.531777+00:00"
+    "builtAt": "2026-11-27T10:07:48.978861+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,42 +23,42 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 491,
-    "sold": 168,
-    "soldDollars": 2934638,
-    "closeRate": 34.2,
-    "revPerSit": 5977
+    "demos": 486,
+    "sold": 167,
+    "soldDollars": 2910224,
+    "closeRate": 34.4,
+    "revPerSit": 5988
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 76,
-      "sold": 33,
-      "soldDollars": 751476,
-      "closeRate": 43.4,
-      "revPerSit": 9888
+      "demos": 75,
+      "sold": 32,
+      "soldDollars": 727062,
+      "closeRate": 42.7,
+      "revPerSit": 9694
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 191,
+      "demos": 189,
       "sold": 80,
       "soldDollars": 1279924,
-      "closeRate": 41.9,
-      "revPerSit": 6701
+      "closeRate": 42.3,
+      "revPerSit": 6772
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 159,
+      "demos": 157,
       "sold": 40,
       "soldDollars": 645729,
-      "closeRate": 25.2,
-      "revPerSit": 4061
+      "closeRate": 25.5,
+      "revPerSit": 4113
     },
     {
       "name": "Leo Santana",
@@ -93,15 +93,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 284,
-      "sold": 59,
-      "soldDollars": 989558,
-      "conversion": 20.8
+      "apptsSet": 278,
+      "sold": 58,
+      "soldDollars": 969080,
+      "conversion": 20.9
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-26T22:04:11.76Z"
+    "acculynxRun": "2026-11-27T10:04:37.18Z"
   }
 }
