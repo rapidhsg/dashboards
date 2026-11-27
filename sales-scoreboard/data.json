@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-27"
   },
   "freshness": {
-    "acculynxRun": "2026-11-27T16:04:17.8933333Z",
+    "acculynxRun": "2026-11-27T19:04:17.2666667Z",
     "scheduleET": [
       "05:00",
       "08:00",
@@ -15,7 +15,7 @@
       "17:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-27T16:22:04.011548+00:00"
+    "builtAt": "2026-11-27T19:06:57.081558+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 488,
+    "demos": 490,
     "sold": 170,
     "soldDollars": 2976119,
-    "closeRate": 34.8,
-    "revPerSit": 6099
+    "closeRate": 34.7,
+    "revPerSit": 6074
   },
   "reps": [
     {
@@ -54,21 +54,21 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 157,
+      "demos": 158,
       "sold": 41,
       "soldDollars": 665529,
-      "closeRate": 26.1,
-      "revPerSit": 4239
+      "closeRate": 25.9,
+      "revPerSit": 4212
     },
     {
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 36,
+      "demos": 37,
       "sold": 7,
       "soldDollars": 121552,
-      "closeRate": 19.4,
-      "revPerSit": 3376
+      "closeRate": 18.9,
+      "revPerSit": 3285
     },
     {
       "name": "Dan Leverich",
@@ -93,15 +93,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 283,
+      "apptsSet": 287,
       "sold": 59,
       "soldDollars": 988880,
-      "conversion": 20.8
+      "conversion": 20.6
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-27T16:04:17.8933333Z"
+    "acculynxRun": "2026-11-27T19:04:17.2666667Z"
   }
 }

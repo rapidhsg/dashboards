@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-27T11:04:17-05:00",
+  "updated": "2026-11-27T14:04:17-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -83,12 +83,12 @@
     },
     {
       "name": "Joe Young",
-      "close_rate": 0.2105,
+      "close_rate": 0.2083,
       "close_counts": {
         "approved": 20,
-        "demos": 95
+        "demos": 96
       },
-      "sits": 95,
+      "sits": 96,
       "sales": {
         "week": {
           "amount": 36335,
@@ -153,12 +153,12 @@
     },
     {
       "name": "Leomar Santana",
-      "close_rate": 0.1944,
+      "close_rate": 0.1892,
       "close_counts": {
         "approved": 7,
-        "demos": 36
+        "demos": 37
       },
-      "sits": 36,
+      "sits": 37,
       "sales": {
         "week": {
           "amount": 53840,
@@ -188,12 +188,12 @@
     }
   ],
   "team": {
-    "close_rate": 0.3183,
+    "close_rate": 0.3163,
     "close_counts": {
       "approved": 99,
-      "demos": 311
+      "demos": 313
     },
-    "sits": 312,
+    "sits": 314,
     "sales": {
       "week": {
         "amount": 150621,
