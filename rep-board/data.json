@@ -1,6 +1,6 @@
 {
   "sample": false,
-  "updated": "2026-11-27T14:04:17-05:00",
+  "updated": "2026-11-27T17:03:59-05:00",
   "periods": {
     "week": "Nov 23 \u2013 Nov 29",
     "month": "November",
@@ -13,28 +13,28 @@
   "reps": [
     {
       "name": "Mike Dietrich",
-      "close_rate": 0.3962,
+      "close_rate": 0.4074,
       "close_counts": {
-        "approved": 42,
-        "demos": 106
+        "approved": 44,
+        "demos": 108
       },
-      "sits": 106,
+      "sits": 108,
       "sales": {
         "week": {
-          "amount": 15772,
-          "count": 1
+          "amount": 45482,
+          "count": 3
         },
         "month": {
-          "amount": 193566,
-          "count": 13
+          "amount": 223277,
+          "count": 15
         },
         "quarter": {
-          "amount": 707781,
-          "count": 40
+          "amount": 737492,
+          "count": 42
         },
         "year": {
-          "amount": 3148647,
-          "count": 207
+          "amount": 3178358,
+          "count": 209
         }
       },
       "gp": {
@@ -42,8 +42,8 @@
         "pct": 0.3617
       },
       "avg_ticket": {
-        "quarter": 17695,
-        "year": 15211
+        "quarter": 17559,
+        "year": 15207
       }
     },
     {
@@ -73,7 +73,7 @@
         }
       },
       "gp": {
-        "amount": 596216,
+        "amount": 596211,
         "pct": 0.3541
       },
       "avg_ticket": {
@@ -83,28 +83,28 @@
     },
     {
       "name": "Joe Young",
-      "close_rate": 0.2083,
+      "close_rate": 0.2143,
       "close_counts": {
-        "approved": 20,
-        "demos": 96
+        "approved": 21,
+        "demos": 98
       },
-      "sits": 96,
+      "sits": 98,
       "sales": {
         "week": {
-          "amount": 36335,
-          "count": 2
+          "amount": 59335,
+          "count": 3
         },
         "month": {
-          "amount": 142499,
-          "count": 11
+          "amount": 165499,
+          "count": 12
         },
         "quarter": {
-          "amount": 272656,
-          "count": 19
+          "amount": 295656,
+          "count": 20
         },
         "year": {
-          "amount": 1285462,
-          "count": 74
+          "amount": 1308462,
+          "count": 75
         }
       },
       "gp": {
@@ -112,18 +112,18 @@
         "pct": 0.3362
       },
       "avg_ticket": {
-        "quarter": 14350,
-        "year": 17371
+        "quarter": 14783,
+        "year": 17446
       }
     },
     {
       "name": "Daniel Leverich",
-      "close_rate": 0.3448,
+      "close_rate": 0.3226,
       "close_counts": {
         "approved": 10,
-        "demos": 29
+        "demos": 31
       },
-      "sits": 29,
+      "sits": 31,
       "sales": {
         "week": {
           "amount": 41174,
@@ -134,11 +134,11 @@
           "count": 9
         },
         "quarter": {
-          "amount": 182052,
+          "amount": 182051,
           "count": 10
         },
         "year": {
-          "amount": 182052,
+          "amount": 182051,
           "count": 10
         }
       },
@@ -188,37 +188,37 @@
     }
   ],
   "team": {
-    "close_rate": 0.3163,
+    "close_rate": 0.3197,
     "close_counts": {
-      "approved": 99,
-      "demos": 313
+      "approved": 102,
+      "demos": 319
     },
-    "sits": 314,
+    "sits": 320,
     "sales": {
       "week": {
-        "amount": 150621,
-        "count": 8
+        "amount": 203332,
+        "count": 11
       },
       "month": {
-        "amount": 706052,
-        "count": 45
+        "amount": 758762,
+        "count": 48
       },
       "quarter": {
-        "amount": 1612129,
-        "count": 95
+        "amount": 1664839,
+        "count": 98
       },
       "year": {
-        "amount": 7066861,
-        "count": 392
+        "amount": 7119572,
+        "count": 395
       }
     },
     "gp": {
-      "amount": 2042364,
+      "amount": 2042358,
       "pct": 0.3556
     },
     "avg_ticket": {
-      "quarter": 16970,
-      "year": 18028
+      "quarter": 16988,
+      "year": 18024
     }
   }
 }
