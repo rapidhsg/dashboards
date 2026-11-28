@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-27T17:03:59-05:00",
+  "updated": "2026-11-28T05:04:40-05:00",
   "quarter": "Q4 2026",
-  "day": 58,
+  "day": 59,
   "days": 92,
   "quarter_end": "Dec 31",
-  "weeks_left": 4.9,
+  "weeks_left": 4.7,
   "revenue_goal": 2905000,
   "gp_goal_pct": 0.37,
   "gp_goal": 1074850,
@@ -17,7 +17,7 @@
   "closed_value": 1588166,
   "open_jobs": 51,
   "open_value": 1123349,
-  "pace_target": 677623,
+  "pace_target": 689306,
   "months": [
     {
       "month": "October",
@@ -55,7 +55,7 @@
       "bonus": 10104,
       "gp_needed": 7364,
       "install_needed": 19908,
-      "per_week": 4099,
+      "per_week": 4223,
       "beyond_schedule": 0,
       "hit": false
     },
@@ -67,7 +67,7 @@
       "bonus": 16123,
       "gp_needed": 71855,
       "install_needed": 194254,
-      "per_week": 39993,
+      "per_week": 41205,
       "beyond_schedule": 0,
       "hit": false
     },
@@ -79,7 +79,7 @@
       "bonus": 23647,
       "gp_needed": 179340,
       "install_needed": 484831,
-      "per_week": 99818,
+      "per_week": 102843,
       "beyond_schedule": 8866,
       "hit": false
     }
